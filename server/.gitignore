@@ -1,0 +1,81 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache/
+.npm/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local databases and database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Redis persistence files
+dump.rdb
+appendonly.aof
+
+# Uploads and user-generated files
+uploads/*
+!uploads/.gitkeep
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Vercel
+.vercel/
+
+# Optional local configuration
+config.local.js
+config.local.json
